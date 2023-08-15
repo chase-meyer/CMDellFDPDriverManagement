@@ -20,7 +20,7 @@ Describe "General project validation: $ENV:BHProjectName" {
 
     It "Module '$ENV:BHProjectName' can import cleanly as long as RequiredModules are present" {
         Write-Host "$($moduleManifest.RequiredModules)"
-        # { Import-Module ($moduleManifest.RequiredModules) -Force -DisableNameChecking } | Should -Not -Throw
+        { Import-Module ($moduleManifest.RequiredModules) -Force -DisableNameChecking } | Should -Not -Throw
         { Import-Module (Join-Path $ENV:BHPSModulePath "$ENV:BHProjectName.psm1") -force } | Should -Not -Throw
     }
 }
