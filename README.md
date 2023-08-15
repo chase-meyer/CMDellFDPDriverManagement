@@ -1,4 +1,4 @@
-![Build Status](https://ci.appveyor.com/api/projects/status/3858ojrmi6vlx9t8/branch/master?svg=true)
+[![Build Status](https://ci.appveyor.com/api/projects/status/3858ojrmi6vlx9t8/branch/master?svg=true)](https://ci.appveyor.com/projects/CMDellFDPDriverManagement/badge/?version=latest)
 
 # CMDellFDPDriverManagement
 
